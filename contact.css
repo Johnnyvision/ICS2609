@@ -1,0 +1,124 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Robot', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+}
+
+section{
+    padding: 50px 100px;
+}
+
+header{
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #eeeff1;
+    padding: 15px 100px;
+}
+
+.logo{
+    color: #444;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar li{
+    position: relative;
+}
+
+.navbar a{
+    font-size: 1rem;
+    padding: 10px 20px;
+    color: #444;
+    font-weight: 500;
+}
+
+.book{
+    padding: 10px 20px;
+    background: #000000;
+    font-weight: 500;
+    color: #fff;
+    border-radius: .5rem;
+}
+
+.book:hover{
+    transform: scale(1.1);
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.contactus {
+    background-image: url(https://thumbs.dreamstime.com/b/car-cloudy-eco-concept-clouds-shaped-like-blue-sky-55488087.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #d8d8d8;
+    margin: 1%;
+    text-align: center;
+    height: 600px;
+    border-style: solid;
+    border-color: white;
+}
+
+.cheader {
+    margin: 12% 1% 1% 1%;
+}
+
+.cheader h1 {
+    font-size: 100px;
+    color: rgb(207, 248, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.cdetails {
+    margin: 1% 1% 10% 1%;
+    text-align: center;
+    color: rgb(207, 248, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.cdetails p {
+    font-size: 35px;
+}
